@@ -1,12 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Home from './component/Home';
+import ArrowTabs from './component/ActiveTabs';
+import Home from './component/Hotel';
 
 function App() {
   return (
     <div>
      <Home/>
+      {/* <ArrowTabs/> */}
     </div>
   );
 }
